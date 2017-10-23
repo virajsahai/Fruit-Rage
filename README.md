@@ -26,8 +26,8 @@ The overall score of each player is the sum of rewards gained for every turn. Th
 terminate when there is no fruit left in the box or when a player has run out of time.
 
 Input: The file input.txt in the current directory of your program will be formatted as follows:
-First line: integer n, the width and height of the square board (0 < n £ 26)
-Second line: integer p, the number of fruit types (0 < p £ 9)
+First line: integer n, the width and height of the square board (0 < n <= 26)
+Second line: integer p, the number of fruit types (0 < p <= 9)
 Third line: strictly positive floating point number, your remaining time in seconds
 Next n lines: the n x n board, with one board row per input file line, and n characters (plus endof-
 line marker) on each line. Each character can be either a digit from 0 to p-1, or
