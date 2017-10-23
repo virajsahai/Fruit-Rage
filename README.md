@@ -55,3 +55,4 @@ one possible correct output.txt is:
 B1
 0*
 2*
+
