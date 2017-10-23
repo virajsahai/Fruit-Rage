@@ -223,8 +223,8 @@ int max_move(node* child_board, int alpha, int beta,result* res)
     quickSort(ins,0,h-1);
 	int x=0;
  	while(x<h)
-    {
-     	heap_node temp=ins[x];
+    	{
+     		heap_node temp=ins[x];
 		child_board->depth=copyNode.depth+1;
 		int ini_fruit=child_board->fruit_count[child_board->grid[temp.x][temp.y]];
 		update_neighbor(child_board,temp.x,temp.y,child_board->grid[temp.x][temp.y]);
@@ -288,8 +288,8 @@ int min_move(node* child_board, int alpha, int beta,result* res)
     quickSort(ins,0,h-1);
 	int x=0;
 	while(x<h)
-    {
-     	heap_node temp=ins[x];
+    	{
+     		heap_node temp=ins[x];
 		child_board->depth=copyNode.depth+1;
 		int ini_fruit=child_board->fruit_count[child_board->grid[temp.x][temp.y]];
 		update_neighbor(child_board,temp.x,temp.y,child_board->grid[temp.x][temp.y]);
